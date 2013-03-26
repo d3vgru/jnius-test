@@ -5,12 +5,14 @@
 - build apk
 # Results
 - something like
+
 	I/DEBUG   (26958): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
 	I/DEBUG   (26958): Build fingerprint: 'ZTE/ZTE_Fury/sean:2.3.6/GINGERBREAD/20120831.044502:user/release-keys'
 	I/DEBUG   (26958): pid: 29841, tid: 29866  >>> org.renpy.android:python <<<
 	I/DEBUG   (26958): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000038
 - fault addr will always be 00000038
 - stack trace
+
 	I/DEBUG   (26958):          #00  pc 00047d04  /system/lib/libdvm.so
 	I/DEBUG   (26958):          #01  pc 0004bca0  /system/lib/libdvm.so
 	I/DEBUG   (26958):          #02  pc 0001ad78  /system/lib/libdvm.so
