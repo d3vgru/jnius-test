@@ -10,6 +10,7 @@
 	I/DEBUG   (26958): Build fingerprint: 'ZTE/ZTE_Fury/sean:2.3.6/GINGERBREAD/20120831.044502:user/release-keys'
 	I/DEBUG   (26958): pid: 29841, tid: 29866  >>> org.renpy.android:python <<<
 	I/DEBUG   (26958): signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 00000038
+
 - fault addr will always be 00000038
 - stack trace
 
@@ -45,6 +46,7 @@
 	I/DEBUG   (26958):          #29  pc 0014727c  /data/data/org.renpy.android/files/libpymodules.so
 	I/DEBUG   (26958):          #30  pc 0014727c  /data/data/org.renpy.android/files/libpymodules.so
 	I/DEBUG   (26958):          #31  pc 0014727c  /data/data/org.renpy.android/files/libpymodules.so
+
 - 00047d04 in libdvm.so = dvmAddToReferenceTable
 - 0014727c in libpymodules.so = initjnius
 - disabling either the call to PythonActivity.log() or thread.start() should avoid the crash
