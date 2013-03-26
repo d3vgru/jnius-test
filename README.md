@@ -2,7 +2,8 @@
 - clone kivy/python-for-android
 - ./distribute.sh -m kivy
 - copy java/org/renpy/android/PythonActivity.java to dist/default/src/org/renpy/android (this adds a static log method to the beginning of the activity source)
-- build & run apk
+- build & run apk using the python folder as --dir
+
 # Results
 - something like
 
